@@ -1,8 +1,3 @@
----
-layout: page
-title: README
----
-
 Features implemented in the Project :-
 
 i) main.cpp
