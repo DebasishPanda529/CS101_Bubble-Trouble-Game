@@ -2,29 +2,31 @@
 layout: page
 title: README
 ---
+
 Features implemented in the Project :-
 
 i) main.cpp
-   # Two new functions have been written to create the bubbles in levels 2 and 3. Corresponding to them, two new functions have been created to move the bubbles in           levels 2 and 3. The new functions move_bubbles_1 and move_bubbles_2  map to the memeber functions nextStep_1 and nextStep_2 in bubble.h.
 
-   # Different Text outputs have been included to show the beginning of a new level, shooter's death or time out situation. These outputs are transient and disappear        from the screen after 2-3 seconds.
+    Two new functions have been written to create the bubbles in levels 2 and 3. Corresponding to them, two new functions have been created to move the bubbles in           levels 2 and 3. The new functions move_bubbles_1 and move_bubbles_2  map to the memeber functions nextStep_1 and nextStep_2 in bubble.h.
 
-   # A timer has been included in the main.cpp file. The timer for level 1 counts down to 50s, for level 2 40s and for level 3 30s. The timer executes through a for        loop at each game level and its speed has been normalised to account for the large computing speed of the computer using greatest integer function concept.
+    Different Text outputs have been included to show the beginning of a new level, shooter's death or time out situation. These outputs are transient and disappear        from the screen after 2-3 seconds.
 
-   # A health counter has been added in the program with 5 health points. The game terminates if health of shooter becomes zero. The health counter is run using the        same loop that checks for a collision between shooter and bubble. The health points are kept track of using an int variable.
+    A timer has been included in the main.cpp file. The timer for level 1 counts down to 50s, for level 2 40s and for level 3 30s. The timer executes through a for          loop at each game level and its speed has been normalised to account for the large computing speed of the computer using greatest integer function concept.
 
-   # Loops have been executed in the main.cpp file to check for collision between bubbles + bullets and bubbles + shooter. There are two bubbles in level 1, four in        level 2 and six in level 3.
+    A health counter has been added in the program with 5 health points. The game terminates if health of shooter becomes zero. The health counter is run using the          same loop that checks for a collision between shooter and bubble. The health points are kept track of using an int variable.
 
-   # Conditional statements in main.cpp ensure that the game gets terminated whenever we run out of time in any particular level or the shooter is dead.
+    Loops have been executed in the main.cpp file to check for collision between bubbles + bullets and bubbles + shooter. There are two bubbles in level 1, four in          level 2 and six in level 3.
 
-   # Some const int variables in main_program have been transferred to the shooter.h file due to the need for defining some new const int variables in the shooter.h        file. These new variables are essential to create the obstacles in the game for levels 2 and 3.
+    Conditional statements in main.cpp ensure that the game gets terminated whenever we run out of time in any particular level or the shooter is dead.
+
+    Some const int variables in main_program have been transferred to the shooter.h file due to the need for defining some new const int variables in the shooter.h          file. These new variables are essential to create the obstacles in the game for levels 2 and 3.
 
 ii) bubble.h
-   # The Bubble class has been updated to introduce the effects of gravity and introduce the requird parabolic path in the game.
+    The Bubble class has been updated to introduce the effects of gravity and introduce the requird parabolic path in the game.
 
-   # Two new member functions nextStep_1 and nextStep_2 have been added to the Bubble class. These functions add the obstacles in the game in the form of  'bars' which      are implemented by lines. The bubble bounces off the bar if it reaches it and the bullets disappear if they hit the bar. So the shooter's chances of hitting the        bubbles decrease slightly with each game. There are two such bars in level 2 and three such bars in level 3.
+    Two new member functions nextStep_1 and nextStep_2 have been added to the Bubble class. These functions add the obstacles in the game in the form of  'bars' which      are implemented by lines. The bubble bounces off the bar if it reaches it and the bullets disappear if they hit the bar. So the shooter's chances of hitting the        bubbles decrease slightly with each game. There are two such bars in level 2 and three such bars in level 3.
 
-   # The speed and number of bubbles increases with increase in the level of the game.
+    The speed and number of bubbles increases with increase in the level of the game.
      
 iii) shooter.h and bullet.h : No changes in code were made in these programs
 
