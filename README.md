@@ -1,7 +1,7 @@
 # Bubble Trouble Game
 Features implemented in the Project :-
 
-i) main.cpp
+1. main.cpp
 
    - Two new functions have been written to create the bubbles in levels 2 and 3. Corresponding to them, two new functions have been created to move the bubbles in           levels 2 and 3. The new functions move_bubbles_1 and move_bubbles_2  map to the memeber functions nextStep_1 and nextStep_2 in bubble.h.
 
@@ -17,14 +17,14 @@ i) main.cpp
 
    - Some const int variables in main_program have been transferred to the shooter.h file due to the need for defining some new const int variables in the shooter.h          file. These new variables are essential to create the obstacles in the game for levels 2 and 3.
 
-ii) bubble.h
+2. bubble.h
    - The Bubble class has been updated to introduce the effects of gravity and introduce the requird parabolic path in the game.
 
    - Two new member functions nextStep_1 and nextStep_2 have been added to the Bubble class. These functions add the obstacles in the game in the form of  'bars' which      are implemented by lines. The bubble bounces off the bar if it reaches it and the bullets disappear if they hit the bar. So the shooter's chances of hitting the        bubbles decrease slightly with each game. There are two such bars in level 2 and three such bars in level 3.
 
    - The speed and number of bubbles increases with increase in the level of the game.
      
-iii) shooter.h and bullet.h : No changes in code were made in these programs
+3. shooter.h and bullet.h : No changes in code were made in these programs
 
 Link to the game videos :-
   - All videos link:  [Here](https://drive.google.com/drive/folders/1K9UkRVpEcFqPaWQKiqjdrI1Xoh0veSY9?usp=sharing)
