@@ -28,6 +28,6 @@ Features implemented in the Project :-
 
 Link to the game videos :-
   - All videos link:  [Here](https://drive.google.com/drive/folders/1K9UkRVpEcFqPaWQKiqjdrI1Xoh0veSY9?usp=sharing)
-  - Game win:     [Here](https://drive.google.com/file/d/1KVEQAWEMVCCJwilqP4qq8rz0IhVvsZmz/view?usp=sharing) 
-  - Game win:     [Here](https://drive.google.com/file/d/17O8HLVwsP-WQN8YLhaizy5miBEDOYBNl/view?usp=sharing)
-  - Game lose:    [Here](https://drive.google.com/file/d/1BDOxxyorslx6HYfkvpCKXCqlqPwbhGWg/view?usp=sharing)
+  - Win:     [Here](https://drive.google.com/file/d/1KVEQAWEMVCCJwilqP4qq8rz0IhVvsZmz/view?usp=sharing) 
+  - Win:     [Here](https://drive.google.com/file/d/17O8HLVwsP-WQN8YLhaizy5miBEDOYBNl/view?usp=sharing)
+  - Lose:    [Here](https://drive.google.com/file/d/1BDOxxyorslx6HYfkvpCKXCqlqPwbhGWg/view?usp=sharing)
